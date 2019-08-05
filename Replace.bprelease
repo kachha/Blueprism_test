@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bpr:release xmlns:bpr="http://www.blueprism.co.uk/product/release">
+    <bpr:name>Replace</bpr:name>
+    <bpr:release-notes />
+    <bpr:created>2019-07-15 09:56:09Z</bpr:created>
+    <bpr:package-id>10</bpr:package-id>
+    <bpr:package-name>Replace excel</bpr:package-name>
+    <bpr:user-created-by>pal9399</bpr:user-created-by>
+    <bpr:contents count="2">
+        <object id="f096ff69-59f8-4e4e-a465-634846290c40" name="Excel Interop Actions" xmlns="http://www.blueprism.co.uk/product/process"><process name="Excel Interop Actions" version="1.0" bpversion="6.3.0.6190" narrative="" byrefcollection="true" type="object" runmode="Exclusive"><appdef><element name="Application Root"><id>ac5301b2-0d87-4742-8a75-d6d14c179d2b</id><type>Application</type><basetype>Application</basetype><datatype>unknown</datatype><diagnose>False</diagnose></element></appdef><view><camerax>0</camerax><cameray>0</cameray><zoom version="2">1.25</zoom></view><preconditions /><endpoint narrative="" /><subsheet subsheetid="89889f46-d634-4f30-8db4-3dcb76b8d7a0" type="CleanUp" published="True"><name>Clean Up</name><view><camerax>0</camerax><cameray>0</cameray><zoom version="2">1.25</zoom></view></subsheet><subsheet subsheetid="d9194fb0-ef89-433d-996b-bdb81ccdeb6d" type="Normal" published="True"><name>Merge Excel</name><view><camerax>0</camerax><cameray>63</cameray><zoom version="2">1.25</zoom></view></subsheet><subsheet subsheetid="60d51ffc-b234-44cc-b42e-893f0cb23f42" type="Normal" published="True"><name>Remove specific row</name><view><camerax>0</camerax><cameray>0</cameray><zoom version="2">1.25</zoom></view></subsheet><subsheet subsheetid="82dff583-ca93-43d7-a7fb-8bcc87efc269" type="Normal" published="True"><name>Replace</name><view><camerax>0</camerax><cameray>0</cameray><zoom version="2">1.25</zoom></view></subsheet><subsheet subsheetid="4e036155-4c0d-40a4-9bff-65fa928c47a9" type="Normal" published="True"><name>Protect worksheet</name><view><camerax>0</camerax><cameray>63</cameray><zoom version="2">1.25</zoom></view></subsheet><subsheet subsheetid="b4048958-db3d-4617-9bc7-733850cacb59" type="Normal" published="True"><name>AutoFit Columns and Rows</name><view><camerax>0</camerax><cameray>63</cameray><zoom version="2">1.25</zoom></view></subsheet><subsheet subsheetid="e52ea5dd-ead1-4ff9-9d25-5f39533c4002" type="Normal" published="True"><name>Save with password</name><view><camerax>0</camerax><cameray>63</cameray><zoom version="2">1.25</zoom></view></subsheet><subsheet subsheetid="857c8977-e8be-477f-b254-803e0927a090" type="Normal" published="True"><name>Save as .xlsx</name><view><camerax>0</camerax><cameray>63</cameray><zoom version="2">1.25</zoom></view></subsheet><stage stageid="d52346bd-8955-4af3-9b31-9c3f1b394b33" name="Start" type="Start"><loginhibit /><narrative></narrative><displayx>15</displayx><displayy>-105</displayy><displaywidth>60</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><onsuccess>41912fef-4067-42f9-9b9f-cee02351797a</onsuccess></stage><stage stageid="41912fef-4067-42f9-9b9f-cee02351797a" name="End" type="End"><loginhibit /><narrative></narrative><displayx>15</displayx><displayy>90</displayy><displaywidth>60</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /></stage><stage stageid="837e1460-a7df-4efe-a2b0-2aded3db3769" name="Stage1" type="ProcessInfo"><narrative></narrative><displayx>-195</displayx><displayy>-105</displayy><displaywidth>150</displaywidth><displayheight>90</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><references><reference>System.dll</reference><reference>System.Data.dll</reference><reference>System.Xml.dll</reference><reference>System.Drawing.dll</reference><reference>C:\Program Files (x86)\Microsoft Office\Office15\DCF\Microsoft.Office.Interop.Excel.dll</reference></references><imports><import>System</import><import>System.Drawing</import><import>System.Data</import><import>Microsoft.Office.Interop.Excel</import><import>System.IO</import><import>System.Windows.Forms</import><import>System.Collections.Generic</import><import>System.ComponentModel</import><import>System.Text</import><import>System.Threading.Tasks</import><import>System.Runtime.InteropServices</import></imports><language>csharp</language><globalcode><![CDATA[]]></globalcode><code><![CDATA[]]></code></stage><stage stageid="dbf5fbca-a11f-44cc-ade9-c1645b4fee23" name="Clean Up" type="SubSheetInfo"><subsheetid>89889f46-d634-4f30-8db4-3dcb76b8d7a0</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>-105</displayy><displaywidth>150</displaywidth><displayheight>90</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /></stage><stage stageid="6000fee1-907d-45f4-8088-daccca425a3b" name="Start" type="Start"><subsheetid>89889f46-d634-4f30-8db4-3dcb76b8d7a0</subsheetid><loginhibit /><narrative></narrative><displayx>15</displayx><displayy>-105</displayy><displaywidth>60</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><onsuccess>525742d6-cebe-41de-841c-656931c84168</onsuccess></stage><stage stageid="525742d6-cebe-41de-841c-656931c84168" name="End" type="End"><subsheetid>89889f46-d634-4f30-8db4-3dcb76b8d7a0</subsheetid><loginhibit /><narrative></narrative><displayx>15</displayx><displayy>90</displayy><displaywidth>60</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /></stage><stage stageid="0340b9e7-b3aa-4f47-8692-cf2f498ab475" name="Merge Excel" type="SubSheetInfo"><subsheetid>d9194fb0-ef89-433d-996b-bdb81ccdeb6d</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>-105</displayy><displaywidth>150</displaywidth><displayheight>90</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /></stage><stage stageid="47d82f9a-276f-4883-b4b2-307fef59e8ac" name="Start" type="Start"><subsheetid>d9194fb0-ef89-433d-996b-bdb81ccdeb6d</subsheetid><loginhibit /><narrative></narrative><displayx>-15</displayx><displayy>-90</displayy><displaywidth>60</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><inputs><input type="text" name="Sourcepath" stage="srcPath" /><input type="text" name="Destinationpath" stage="destPath" /><input type="number" name="Startingrow" stage="Startingrow" /></inputs><onsuccess>cc283191-ac60-4403-941c-ce39bf5f9f7d</onsuccess></stage><stage stageid="01287cd0-133e-4d0e-96d5-dd7cd6e53ea6" name="End" type="End"><subsheetid>d9194fb0-ef89-433d-996b-bdb81ccdeb6d</subsheetid><loginhibit /><narrative></narrative><displayx>-15</displayx><displayy>0</displayy><displaywidth>60</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><outputs><output type="flag" name="Success?" stage="Success?" /><output type="text" name="Error description" stage="Error description" /></outputs></stage><stage stageid="68879c87-5534-4f6e-b913-bc6b4562751a" name="Note1" type="Note"><subsheetid>89889f46-d634-4f30-8db4-3dcb76b8d7a0</subsheetid><narrative>Clean Up Page
+
+This is an optional page where you might choose to perform some finalisation (or "cleanup") tasks as your business object is closed down.
+
+The cleanup action will be called automatically immediately after closing your business object at the end of a business process.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than before the disposal of the business object.</narrative><displayx>-180</displayx><displayy>60</displayy><displaywidth>180</displaywidth><displayheight>230</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /></stage><stage stageid="f6c1cb9d-622a-4a83-856e-87a22cd266ca" name="Note2" type="Note"><narrative>Initialise Page
+
+This is an optional page where you might choose to perform some initialisation tasks after your business object is loaded.
+
+The initialise action will be called automatically immediately after loading your business object.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than after the creation of the object.</narrative><displayx>-180</displayx><displayy>60</displayy><displaywidth>180</displaywidth><displayheight>230</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /></stage><stage stageid="cc283191-ac60-4403-941c-ce39bf5f9f7d" name="MergeExcel" type="Code"><subsheetid>d9194fb0-ef89-433d-996b-bdb81ccdeb6d</subsheetid><loginhibit /><narrative></narrative><displayx>-15</displayx><displayy>-45</displayy><displaywidth>90</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><inputs><input type="text" name="srcPath" expr="[srcPath]" /><input type="text" name="destPath" expr="[destPath]" /><input type="number" name="startRow" expr="[Startingrow]" /></inputs><outputs><output type="flag" name="Success" stage="Success?" /><output type="text" name="errorDescription" stage="Error description" /></outputs><onsuccess>01287cd0-133e-4d0e-96d5-dd7cd6e53ea6</onsuccess><code><![CDATA[Success = true;
+errorDescription = "";
+int srcRows = 0;
+int destRows = 0;
+int notEmpty = 0;
+
+
+// Check if filepaths are correct
+if(File.Exists(srcPath) & File.Exists(destPath))
+{
+	//Create task to handle timeout from Excel
+	Task t = Task.Run( () => {
+		// Create instance
+		Application excelApplication = new Application();
+
+		// Open source worksheet and count number of rows
+		Workbook srcworkBook = excelApplication.Workbooks.Open(srcPath);
+		Worksheet srcworkSheet = (Worksheet)srcworkBook.Worksheets.get_Item(1);
+		srcRows = srcworkSheet.UsedRange.Rows.Count;
+
+		// Open destination worksheet and count number of rows
+		Workbook destworkBook = excelApplication.Workbooks.Open(destPath,0,false);
+		Worksheet destworkSheet = (Worksheet)destworkBook.Worksheets.get_Item(1);
+		destRows = destworkSheet.UsedRange.Rows.Count;
+		
+		// Check if first row in destination worksheet is empty
+		Range firstRow = destworkSheet.get_Range(destworkSheet.Cells[destRows,1], destworkSheet.Cells[destRows+srcRows,1]).EntireRow;
+		notEmpty = (int)excelApplication.WorksheetFunction.CountA(firstRow);
+
+		// If only one row in destination worksheet is found and it's empty, treat the entire sheet as empty
+		if (destRows == 1 & notEmpty == 0)
+		{
+			destRows = 0;
+		}
+		
+		// Copy rows from source to destination workbook
+		Range fromRange = srcworkSheet.get_Range(srcworkSheet.Cells[startRow,1], srcworkSheet.Cells[srcRows,1]).EntireRow;
+		Range toRange = destworkSheet.get_Range(destworkSheet.Cells[destRows+1,1], destworkSheet.Cells[destRows+srcRows,1]).EntireRow;
+		fromRange.Copy(toRange);
+
+		// Save destination workbook
+		excelApplication.Application.DisplayAlerts = false;
+		destworkBook.SaveAs(destPath);
+
+		// Close workbooks and exit apllication
+		destworkBook.Close(true, null, null);
+		srcworkBook.Close(false, null, null);
+		excelApplication.Quit();
+	} );
+	
+	//Set timeout period before aborting task
+	TimeSpan ts = TimeSpan.FromMilliseconds(300000);
+	if (! t.Wait(ts))
+	{
+		Success = false;
+		errorDescription = "Excel error";
+	}
+}
+
+// Update Error description if either source or destination file isn't found
+else
+{
+	Success = false;
+	errorDescription = "File(s) not found";
+}]]></code></stage><stage stageid="9d9d87bb-ddac-4478-8f98-067a4e2bee98" name="srcPath" type="Data"><subsheetid>d9194fb0-ef89-433d-996b-bdb81ccdeb6d</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>-15</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>text</datatype><initialvalue /><private /><alwaysinit /></stage><stage stageid="4715fc68-03d9-48bc-9df9-78c9818a9c1c" name="destPath" type="Data"><subsheetid>d9194fb0-ef89-433d-996b-bdb81ccdeb6d</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>15</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>text</datatype><initialvalue /><private /><alwaysinit /></stage><stage stageid="42c96c34-82e8-4f6b-b1ee-f3972ee7f5b5" name="Startingrow" type="Data"><subsheetid>d9194fb0-ef89-433d-996b-bdb81ccdeb6d</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>45</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>number</datatype><initialvalue>1</initialvalue><private /><alwaysinit /></stage><stage stageid="a3488cd3-65da-4bf1-9b78-9d8fa4264922" name="Input" type="Block"><subsheetid>d9194fb0-ef89-433d-996b-bdb81ccdeb6d</subsheetid><loginhibit /><narrative></narrative><displayx>-270</displayx><displayy>-45</displayy><displaywidth>150</displaywidth><displayheight>120</displayheight><font family="Segoe UI" size="10" style="Regular" color="7FB2E5" /></stage><stage stageid="f4cd88fc-c5bc-4f0b-b173-4023c2a88243" name="Recover1" type="Recover"><subsheetid>d9194fb0-ef89-433d-996b-bdb81ccdeb6d</subsheetid><loginhibit /><narrative></narrative><displayx>135</displayx><displayy>-90</displayy><displaywidth>60</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><onsuccess>229ee7db-c7e7-4b6a-8bb6-dd33c0ca330c</onsuccess></stage><stage stageid="b047e403-80bd-44f9-b3ac-f47768fdf476" name="Resume1" type="Resume"><subsheetid>d9194fb0-ef89-433d-996b-bdb81ccdeb6d</subsheetid><loginhibit /><narrative></narrative><displayx>135</displayx><displayy>0</displayy><displaywidth>60</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><onsuccess>01287cd0-133e-4d0e-96d5-dd7cd6e53ea6</onsuccess></stage><stage stageid="c2024f1d-aafd-44e1-a2a8-bf373cb31f7a" name="Output" type="Block"><subsheetid>d9194fb0-ef89-433d-996b-bdb81ccdeb6d</subsheetid><loginhibit /><narrative></narrative><displayx>-270</displayx><displayy>90</displayy><displaywidth>150</displaywidth><displayheight>90</displayheight><font family="Segoe UI" size="10" style="Regular" color="7FB2E5" /></stage><stage stageid="77f0576e-6495-419d-9816-49161d9b5498" name="Success?" type="Data"><subsheetid>d9194fb0-ef89-433d-996b-bdb81ccdeb6d</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>120</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>flag</datatype><initialvalue>False</initialvalue><private /><alwaysinit /></stage><stage stageid="662cd77a-39c4-4d33-87da-7d1821fcb595" name="Error description" type="Data"><subsheetid>d9194fb0-ef89-433d-996b-bdb81ccdeb6d</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>150</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>text</datatype><initialvalue /><private /><alwaysinit /></stage><stage stageid="229ee7db-c7e7-4b6a-8bb6-dd33c0ca330c" name="Set Error description" type="MultipleCalculation"><subsheetid>d9194fb0-ef89-433d-996b-bdb81ccdeb6d</subsheetid><loginhibit /><narrative></narrative><displayx>135</displayx><displayy>-45</displayy><displaywidth>90</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><onsuccess>b047e403-80bd-44f9-b3ac-f47768fdf476</onsuccess><steps><calculation expression="&quot;Failed to Merge Excel files - &quot;&amp;ExceptionDetail()" stage="Error description" /><calculation expression="False" stage="Success?" /></steps></stage><stage stageid="7e73da98-b3f7-4a24-87b0-a7a35214f249" name="Remove specific row" type="SubSheetInfo"><subsheetid>60d51ffc-b234-44cc-b42e-893f0cb23f42</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>-105</displayy><displaywidth>150</displaywidth><displayheight>90</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /></stage><stage stageid="7d817e99-c128-47dd-93b5-99a81d879e44" name="Start" type="Start"><subsheetid>60d51ffc-b234-44cc-b42e-893f0cb23f42</subsheetid><loginhibit /><narrative></narrative><displayx>-15</displayx><displayy>-135</displayy><displaywidth>60</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><inputs><input type="number" name="Row" stage="row" /><input type="text" name="path" stage="path" /></inputs><onsuccess>902d6aab-7f84-4aac-ae54-e68ce91b82fe</onsuccess></stage><stage stageid="48aae4be-fbc1-4258-939d-7221946039c9" name="End" type="End"><subsheetid>60d51ffc-b234-44cc-b42e-893f0cb23f42</subsheetid><loginhibit /><narrative></narrative><displayx>-15</displayx><displayy>15</displayy><displaywidth>60</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><outputs><output type="flag" name="Success" stage="Success" /></outputs></stage><stage stageid="d9f82318-448e-40a3-a968-708cd364bfd9" name="path" type="Data"><subsheetid>60d51ffc-b234-44cc-b42e-893f0cb23f42</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>-15</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Tahoma" size="10" style="Regular" color="000000" /><datatype>text</datatype><initialvalue /><private /><alwaysinit /></stage><stage stageid="902d6aab-7f84-4aac-ae54-e68ce91b82fe" name="Remove specific row" type="Code"><subsheetid>60d51ffc-b234-44cc-b42e-893f0cb23f42</subsheetid><loginhibit /><narrative></narrative><displayx>-15</displayx><displayy>-60</displayy><displaywidth>90</displaywidth><displayheight>30</displayheight><font family="Tahoma" size="10" style="Regular" color="000000" /><inputs><input type="number" name="row" expr="[row]" /><input type="text" name="filePath" expr="[path]" /></inputs><outputs><output type="flag" name="success" stage="Success" /></outputs><onsuccess>48aae4be-fbc1-4258-939d-7221946039c9</onsuccess><code><![CDATA[success = true;
+
+//define the excel variables we are going to use in the properties region :
+
+Microsoft.Office.Interop.Excel.ApplicationClass clsExcel = null;
+Microsoft.Office.Interop.Excel.Workbook clsWorkbook = null;
+Microsoft.Office.Interop.Excel.Worksheet clsWorksheet = null; 
+
+
+//in the method use in the following way :
+
+try 
+
+{
+
+//give the path of our excel file here
+
+clsExcel = new Microsoft.Office.Interop.Excel.ApplicationClass();
+//define excel class
+
+clsExcel.Visible = false;
+//set the visible property
+
+clsWorkbook = clsExcel.Workbooks.Open(filePath, 2, false, 5,"", "", true, Microsoft.Office.Interop.Excel.XlPlatform.xlWindows, "", false,true, 0, false, true,Microsoft.Office.Interop.Excel.XlCorruptLoad.xlNormalLoad);
+//open the workbook for editing
+
+clsWorksheet = (Worksheet)clsWorkbook.ActiveSheet;
+//note that this will work only when you have one worksheet (which is obviously 
+//the active sheet), in case of multiple worksheets use the name property
+
+Range range = clsWorksheet.get_Range("A"+row,"B"+row.ToString());
+//setting the range for deleting the rows
+
+range.EntireRow.Delete(XlDirection.xlUp);
+//for deleting the rows; in case of columns use: 'EntireColumn' instead of 'EntireRow'
+
+clsWorkbook.Save();
+//save the workbook
+
+clsWorkbook.Close(false, "", false);
+//close the workbook
+
+clsExcel.Quit();
+//quit the workook
+
+}
+
+catch(Exception e)
+{
+success = false;
+}
+
+//In case you face errors while opening the excel file saying that it is already
+//opened, go to taskmanager - take the processes tab and end the excel.exe 
+//processes.
+]]></code></stage><stage stageid="a51c699e-3db1-4ab9-a491-a17f71c0320f" name="row" type="Data"><subsheetid>60d51ffc-b234-44cc-b42e-893f0cb23f42</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>15</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>number</datatype><initialvalue /><private /><alwaysinit /></stage><stage stageid="5bdff754-2b8b-4835-8e55-a7aaf11799a3" name="Success" type="Data"><subsheetid>60d51ffc-b234-44cc-b42e-893f0cb23f42</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>90</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>flag</datatype><initialvalue /><private /><alwaysinit /></stage><stage stageid="49c4ecaa-2cba-4f6d-adaa-6a31e6ce19be" name="Protect worksheet" type="SubSheetInfo"><subsheetid>4e036155-4c0d-40a4-9bff-65fa928c47a9</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>-105</displayy><displaywidth>150</displaywidth><displayheight>90</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /></stage><stage stageid="566a642a-e355-4c9f-bcc7-7b4084718778" name="Start" type="Start"><subsheetid>4e036155-4c0d-40a4-9bff-65fa928c47a9</subsheetid><loginhibit /><narrative></narrative><displayx>-15</displayx><displayy>-135</displayy><displaywidth>60</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><inputs><input type="text" name="Path" stage="Path" /><input type="text" name="Worksheet" stage="Worksheet" /><input type="password" name="Password" stage="Password" /></inputs><onsuccess>bc3dfda4-1c18-4257-9043-d269bb7bcfe0</onsuccess></stage><stage stageid="87262fbd-85c6-4e5b-a829-8a978ecbd6d9" name="End" type="End"><subsheetid>4e036155-4c0d-40a4-9bff-65fa928c47a9</subsheetid><loginhibit /><narrative></narrative><displayx>-15</displayx><displayy>30</displayy><displaywidth>60</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><outputs><output type="flag" name="Success" stage="Success?" /><output type="text" name="Error description" stage="Error description" /></outputs></stage><stage stageid="bc3dfda4-1c18-4257-9043-d269bb7bcfe0" name="ProtectWorksheet" type="Code"><subsheetid>4e036155-4c0d-40a4-9bff-65fa928c47a9</subsheetid><loginhibit /><narrative></narrative><displayx>-15</displayx><displayy>-60</displayy><displaywidth>90</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><inputs><input type="text" name="path" expr="[Path]" /><input type="text" name="worksheetName" expr="[Worksheet]" /><input type="password" name="password" expr="[Password]" /></inputs><outputs><output type="flag" name="success" stage="Success?" /><output type="text" name="errorDescription" stage="Error description" /></outputs><onsuccess>87262fbd-85c6-4e5b-a829-8a978ecbd6d9</onsuccess><code><![CDATA[success = true;
+errorDescription = "";
+
+
+// Check if filepath are correct
+if(File.Exists(path))
+{
+	//Create task to handle timeout from Excel
+	Task t = Task.Run( () => {
+		// Create instance
+		Application excelApplication = new Application();
+
+		// Open worksheet
+		Workbook workBook = excelApplication.Workbooks.Open(path);
+		Worksheet workSheet = (Worksheet)workBook.Sheets[worksheetName];
+		
+		//Protect worksheet
+		workSheet.Protect(password, true);
+		
+		// Save workbook
+		excelApplication.Application.DisplayAlerts = false;
+		workBook.SaveAs(path);
+
+		// Close workbooks and exit apllication
+		workBook.Close(true, null, null);
+		excelApplication.Quit();
+	} );
+	
+	//Set timeout period before aborting task
+	TimeSpan ts = TimeSpan.FromMilliseconds(300000);
+	if (! t.Wait(ts))
+	{
+		success = false;
+		errorDescription = "Excel error";
+	}
+}
+
+// Update Error description if file isn't found
+else
+{
+	success = false;
+	errorDescription = "File not found";
+}]]></code></stage><stage stageid="666c7306-bad5-49ac-a06c-10f76405c93d" name="Success?" type="Data"><subsheetid>4e036155-4c0d-40a4-9bff-65fa928c47a9</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>120</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>flag</datatype><initialvalue /><private /><alwaysinit /></stage><stage stageid="e5101fde-3f10-47c1-bf99-b07e2abb40eb" name="Error description" type="Data"><subsheetid>4e036155-4c0d-40a4-9bff-65fa928c47a9</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>150</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>text</datatype><initialvalue /><private /><alwaysinit /></stage><stage stageid="956ef009-e7fc-4128-8e7f-cc6a825b06d6" name="Password" type="Data"><subsheetid>4e036155-4c0d-40a4-9bff-65fa928c47a9</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>45</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>password</datatype><initialvalueenc></initialvalueenc><private /><alwaysinit /></stage><stage stageid="5860b4d8-32d5-42f6-a28d-32eb4eee05c9" name="Input" type="Block"><subsheetid>4e036155-4c0d-40a4-9bff-65fa928c47a9</subsheetid><loginhibit /><narrative></narrative><displayx>-270</displayx><displayy>-45</displayy><displaywidth>150</displaywidth><displayheight>120</displayheight><font family="Segoe UI" size="10" style="Regular" color="7FB2E5" /></stage><stage stageid="a8a9e722-ec89-4cd1-a53d-96ad8bce9a97" name="Output" type="Block"><subsheetid>4e036155-4c0d-40a4-9bff-65fa928c47a9</subsheetid><loginhibit /><narrative></narrative><displayx>-270</displayx><displayy>90</displayy><displaywidth>150</displaywidth><displayheight>90</displayheight><font family="Segoe UI" size="10" style="Regular" color="7FB2E5" /></stage><stage stageid="27897168-b0a0-425b-9ef6-7260b28fd79b" name="AutoFit Columns and Rows" type="SubSheetInfo"><subsheetid>b4048958-db3d-4617-9bc7-733850cacb59</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>-105</displayy><displaywidth>150</displaywidth><displayheight>90</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /></stage><stage stageid="b7876ccf-45a2-488a-8d69-559dbb8dc3f7" name="Start" type="Start"><subsheetid>b4048958-db3d-4617-9bc7-733850cacb59</subsheetid><loginhibit /><narrative></narrative><displayx>-15</displayx><displayy>-135</displayy><displaywidth>60</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><inputs><input type="text" name="Path" stage="Path" /><input type="text" name="Worksheet" stage="Worksheet" /></inputs><onsuccess>add99340-71a0-4c5a-ba82-8a0f92623281</onsuccess></stage><stage stageid="83a201d5-6104-42cc-a2ff-87c1a86ceec6" name="End" type="End"><subsheetid>b4048958-db3d-4617-9bc7-733850cacb59</subsheetid><loginhibit /><narrative></narrative><displayx>-15</displayx><displayy>30</displayy><displaywidth>60</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><outputs><output type="flag" name="Success" stage="Success?" /><output type="text" name="Error description" stage="Error description" /></outputs></stage><stage stageid="add99340-71a0-4c5a-ba82-8a0f92623281" name="AutoFit" type="Code"><subsheetid>b4048958-db3d-4617-9bc7-733850cacb59</subsheetid><loginhibit /><narrative></narrative><displayx>-15</displayx><displayy>-60</displayy><displaywidth>90</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><inputs><input type="text" name="path" expr="[Path]" /><input type="text" name="worksheetName" expr="[Worksheet]" /></inputs><outputs><output type="flag" name="success" stage="Success?" /><output type="text" name="errorDescription" stage="Error description" /></outputs><onsuccess>83a201d5-6104-42cc-a2ff-87c1a86ceec6</onsuccess><code><![CDATA[success = true;
+errorDescription = "";
+
+
+// Check if filepath are correct
+if(File.Exists(path))
+{
+	//Create task to handle timeout from Excel
+	Task t = Task.Run( () => {
+		// Create instance
+		Application excelApplication = new Application();
+
+		// Open worksheet
+		Workbook workBook = excelApplication.Workbooks.Open(path);
+		Worksheet workSheet = (Worksheet)workBook.Sheets[worksheetName];
+		
+		//AutoFit columns and rows
+		workSheet.UsedRange.Columns.AutoFit();
+		workSheet.UsedRange.Rows.AutoFit();
+		
+		// Save workbook
+		excelApplication.Application.DisplayAlerts = false;
+		workBook.SaveAs(path);
+
+		// Close workbooks and exit apllication
+		workBook.Close(true, null, null);
+		excelApplication.Quit();
+	} );
+	
+	//Set timeout period before aborting task
+	TimeSpan ts = TimeSpan.FromMilliseconds(300000);
+	if (! t.Wait(ts))
+	{
+		success = false;
+		errorDescription = "Excel error";
+	}
+}
+
+// Update Error description if file isn't found
+else
+{
+	success = false;
+	errorDescription = "File not found";
+}]]></code></stage><stage stageid="3ab93dbc-2285-4386-b8fc-a9687e90ac05" name="Success?" type="Data"><subsheetid>b4048958-db3d-4617-9bc7-733850cacb59</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>90</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>flag</datatype><initialvalue /><private /><alwaysinit /></stage><stage stageid="610add3b-f3d1-4f40-a72b-c317ed4d7cc7" name="Error description" type="Data"><subsheetid>b4048958-db3d-4617-9bc7-733850cacb59</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>120</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>text</datatype><initialvalue /><private /><alwaysinit /></stage><stage stageid="7a7909ce-789a-4e4d-ace1-09233c451879" name="Path" type="Data"><subsheetid>b4048958-db3d-4617-9bc7-733850cacb59</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>-15</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>text</datatype><initialvalue /><private /><alwaysinit /></stage><stage stageid="e978a9d0-0fd2-47b0-a20b-d58eafd49678" name="Input" type="Block"><subsheetid>b4048958-db3d-4617-9bc7-733850cacb59</subsheetid><loginhibit /><narrative></narrative><displayx>-270</displayx><displayy>-45</displayy><displaywidth>150</displaywidth><displayheight>90</displayheight><font family="Segoe UI" size="10" style="Regular" color="7FB2E5" /></stage><stage stageid="272617c2-600c-4a5e-8541-dd09ddf5e943" name="Output" type="Block"><subsheetid>b4048958-db3d-4617-9bc7-733850cacb59</subsheetid><loginhibit /><narrative></narrative><displayx>-270</displayx><displayy>60</displayy><displaywidth>150</displaywidth><displayheight>90</displayheight><font family="Segoe UI" size="10" style="Regular" color="7FB2E5" /></stage><stage stageid="b1bca968-1525-4a62-8d4d-6d964d41adcd" name="Worksheet" type="Data"><subsheetid>b4048958-db3d-4617-9bc7-733850cacb59</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>15</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>text</datatype><initialvalue /><private /><alwaysinit /></stage><stage stageid="daecb51f-367f-46f4-b872-ffb4842cdd27" name="Path" type="Data"><subsheetid>4e036155-4c0d-40a4-9bff-65fa928c47a9</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>-15</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>text</datatype><initialvalue /><private /><alwaysinit /></stage><stage stageid="d85e4190-9730-46a6-8634-671270d1c3c3" name="Worksheet" type="Data"><subsheetid>4e036155-4c0d-40a4-9bff-65fa928c47a9</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>15</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>text</datatype><initialvalue /><private /><alwaysinit /></stage><stage stageid="f28371f2-8a48-4d3f-9b88-02fd24bde4f2" name="Input" type="Block"><subsheetid>60d51ffc-b234-44cc-b42e-893f0cb23f42</subsheetid><loginhibit /><narrative></narrative><displayx>-270</displayx><displayy>-45</displayy><displaywidth>150</displaywidth><displayheight>90</displayheight><font family="Segoe UI" size="10" style="Regular" color="7FB2E5" /></stage><stage stageid="119fd224-7d01-4c37-934c-d994d6fa8cdb" name="Output" type="Block"><subsheetid>60d51ffc-b234-44cc-b42e-893f0cb23f42</subsheetid><loginhibit /><narrative></narrative><displayx>-270</displayx><displayy>60</displayy><displaywidth>150</displaywidth><displayheight>60</displayheight><font family="Segoe UI" size="10" style="Regular" color="7FB2E5" /></stage><stage stageid="b05b9530-7584-4ee9-b4dc-defcc958f665" name="Save with password" type="SubSheetInfo"><subsheetid>e52ea5dd-ead1-4ff9-9d25-5f39533c4002</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>-105</displayy><displaywidth>150</displaywidth><displayheight>90</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /></stage><stage stageid="dab13e6e-312e-42e7-acd2-271d95b4f0ab" name="Start" type="Start"><subsheetid>e52ea5dd-ead1-4ff9-9d25-5f39533c4002</subsheetid><loginhibit /><narrative></narrative><displayx>-15</displayx><displayy>-135</displayy><displaywidth>60</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><inputs><input type="text" name="Path" stage="Path" /><input type="password" name="Password" stage="Password" /></inputs><onsuccess>d7db0502-6968-452f-9a73-9268d4378a7e</onsuccess></stage><stage stageid="bb0658c9-d44d-4bba-947c-600cf4f9983f" name="End" type="End"><subsheetid>e52ea5dd-ead1-4ff9-9d25-5f39533c4002</subsheetid><loginhibit /><narrative></narrative><displayx>-15</displayx><displayy>30</displayy><displaywidth>60</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><outputs><output type="flag" name="Success" stage="Success?" /><output type="text" name="Error description" stage="Error description" /></outputs></stage><stage stageid="d7db0502-6968-452f-9a73-9268d4378a7e" name="SaveWithPassword" type="Code"><subsheetid>e52ea5dd-ead1-4ff9-9d25-5f39533c4002</subsheetid><loginhibit /><narrative></narrative><displayx>-15</displayx><displayy>-60</displayy><displaywidth>90</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><inputs><input type="text" name="path" expr="[Path]" /><input type="password" name="password" expr="[Password]" /></inputs><outputs><output type="flag" name="success" stage="Success?" /><output type="text" name="errorDescription" stage="Error description" /></outputs><onsuccess>bb0658c9-d44d-4bba-947c-600cf4f9983f</onsuccess><code><![CDATA[success = true;
+errorDescription = "";
+
+
+// Check if filepath is correct
+if(File.Exists(path))
+{
+	//Create task to handle timeout from Excel
+	Task t = Task.Run( () => {
+		
+		// Create instance
+		Application excelApplication = new Application();
+
+		// Open workbook
+		Workbook workBook = excelApplication.Workbooks.Open(path);
+
+		// Save workbook
+		excelApplication.Application.DisplayAlerts = false;
+		workBook.SaveAs(path, Type.Missing, password, Type.Missing, false, false, XlSaveAsAccessMode.xlExclusive, XlSaveConflictResolution.xlLocalSessionChanges, false, Type.Missing, Type.Missing, true);
+
+		// Close workbook and exit application
+		workBook.Close(true, null, null);
+		excelApplication.Quit();
+	} );
+	
+	//Set timeout period before aborting task
+	TimeSpan ts = TimeSpan.FromMilliseconds(300000);
+	if (! t.Wait(ts))
+	{
+		success = false;
+		errorDescription = "Excel error";
+	}
+}
+
+// Update Error description if either source or destination file isn't found
+else
+{
+	success = false;
+	errorDescription = "File not found";
+}]]></code></stage><stage stageid="1607fc68-3d5e-495b-944c-5eac4ed05be5" name="Success?" type="Data"><subsheetid>e52ea5dd-ead1-4ff9-9d25-5f39533c4002</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>90</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>flag</datatype><initialvalue /><private /><alwaysinit /></stage><stage stageid="723377ba-afc1-4ec8-a147-1e8fc42db274" name="Error description" type="Data"><subsheetid>e52ea5dd-ead1-4ff9-9d25-5f39533c4002</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>120</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>text</datatype><initialvalue /><private /><alwaysinit /></stage><stage stageid="4815d41a-0f60-4df2-8679-649fd17b3f5a" name="Path" type="Data"><subsheetid>e52ea5dd-ead1-4ff9-9d25-5f39533c4002</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>-15</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>text</datatype><initialvalue /><private /><alwaysinit /></stage><stage stageid="6739b699-e3bb-4593-a32a-d7f50a3365ad" name="Input" type="Block"><subsheetid>e52ea5dd-ead1-4ff9-9d25-5f39533c4002</subsheetid><loginhibit /><narrative></narrative><displayx>-270</displayx><displayy>-45</displayy><displaywidth>150</displaywidth><displayheight>90</displayheight><font family="Segoe UI" size="10" style="Regular" color="7FB2E5" /></stage><stage stageid="7a44d389-95d0-4a32-a023-47f8d6dc9c66" name="Output" type="Block"><subsheetid>e52ea5dd-ead1-4ff9-9d25-5f39533c4002</subsheetid><loginhibit /><narrative></narrative><displayx>-270</displayx><displayy>60</displayy><displaywidth>150</displaywidth><displayheight>90</displayheight><font family="Segoe UI" size="10" style="Regular" color="7FB2E5" /></stage><stage stageid="a0807475-d9eb-4ba3-8ffe-eb964e889201" name="Password" type="Data"><subsheetid>e52ea5dd-ead1-4ff9-9d25-5f39533c4002</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>15</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>password</datatype><initialvalueenc></initialvalueenc><private /><alwaysinit /></stage><stage stageid="7167add4-51f5-4428-8037-d17f53eb97a2" name="Save as .xlsx" type="SubSheetInfo"><subsheetid>857c8977-e8be-477f-b254-803e0927a090</subsheetid><narrative>Save file in .xlsx format - Deletes old file afterwards</narrative><displayx>-195</displayx><displayy>-105</displayy><displaywidth>150</displaywidth><displayheight>90</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /></stage><stage stageid="526b1d68-075f-4958-8093-44b0e1e5e1b1" name="Start" type="Start"><subsheetid>857c8977-e8be-477f-b254-803e0927a090</subsheetid><loginhibit /><narrative></narrative><displayx>-15</displayx><displayy>-135</displayy><displaywidth>60</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><inputs><input type="text" name="Path" stage="Path" /></inputs><onsuccess>89056ab0-c378-4645-a1fd-5565cda5e717</onsuccess></stage><stage stageid="a94a8d72-5669-4db0-a7d1-6cdb89ec3680" name="End" type="End"><subsheetid>857c8977-e8be-477f-b254-803e0927a090</subsheetid><loginhibit /><narrative></narrative><displayx>-15</displayx><displayy>30</displayy><displaywidth>60</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><outputs><output type="flag" name="Success" stage="Success?" /><output type="text" name="Error description" stage="Error description" /></outputs></stage><stage stageid="89056ab0-c378-4645-a1fd-5565cda5e717" name="SaveAsXLSX" type="Code"><subsheetid>857c8977-e8be-477f-b254-803e0927a090</subsheetid><loginhibit /><narrative></narrative><displayx>-15</displayx><displayy>-60</displayy><displaywidth>90</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><inputs><input type="text" name="path" expr="[Path]" /></inputs><outputs><output type="flag" name="success" stage="Success?" /><output type="text" name="errorDescription" stage="Error description" /></outputs><onsuccess>a94a8d72-5669-4db0-a7d1-6cdb89ec3680</onsuccess><code><![CDATA[success = true;
+errorDescription = "";
+
+
+// Check if filepath is correct
+if(File.Exists(path))
+{
+	//Create task to handle timeout from Excel
+	Task t = Task.Run( () => {
+		
+		// Create instance
+		Application excelApplication = new Application();
+		
+		// Open workbook
+		Workbook workBook = excelApplication.Workbooks.Open(path);
+		
+		//Set extension to ".xlsx"
+		string savePath = Path.ChangeExtension(path, "xlsx");
+		
+		// Save workbook
+		excelApplication.Application.DisplayAlerts = false;
+		workBook.SaveAs(savePath, XlFileFormat.xlWorkbookDefault, Type.Missing, Type.Missing, false, false, XlSaveAsAccessMode.xlExclusive, XlSaveConflictResolution.xlLocalSessionChanges, false, Type.Missing, Type.Missing, true);
+		
+		// Close workbook and exit application
+		workBook.Close(true, null, null);
+		excelApplication.Quit();
+		
+		//Delete old file if renamed
+		if(path != savePath)
+		{
+			File.Delete(path);
+		}
+	} );
+	
+	//Set timeout period before aborting task
+	TimeSpan ts = TimeSpan.FromMilliseconds(10000);
+	if (! t.Wait(ts))
+	{
+		success = false;
+		errorDescription = "Excel error";
+	}
+}
+
+// Update Error description if file isn't found
+else
+{
+	success = false;
+	errorDescription = "File not found";
+}]]></code></stage><stage stageid="b17f2e86-c339-454a-9abf-6c8361f3ff85" name="Success?" type="Data"><subsheetid>857c8977-e8be-477f-b254-803e0927a090</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>60</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>flag</datatype><initialvalue /><private /><alwaysinit /></stage><stage stageid="7461990f-9119-4b3d-a08e-5756618157cd" name="Error description" type="Data"><subsheetid>857c8977-e8be-477f-b254-803e0927a090</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>90</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>text</datatype><initialvalue /><private /><alwaysinit /></stage><stage stageid="41a45e0a-5591-4e65-94a1-77ba069a81b6" name="Path" type="Data"><subsheetid>857c8977-e8be-477f-b254-803e0927a090</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>-15</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>text</datatype><initialvalue /><private /><alwaysinit /></stage><stage stageid="daf8f75f-1833-4839-b233-98109d483651" name="Input" type="Block"><subsheetid>857c8977-e8be-477f-b254-803e0927a090</subsheetid><loginhibit /><narrative></narrative><displayx>-270</displayx><displayy>-45</displayy><displaywidth>150</displaywidth><displayheight>60</displayheight><font family="Segoe UI" size="10" style="Regular" color="7FB2E5" /></stage><stage stageid="d21f96e7-b3f2-467d-8e06-dc624b6afbfb" name="Output" type="Block"><subsheetid>857c8977-e8be-477f-b254-803e0927a090</subsheetid><loginhibit /><narrative></narrative><displayx>-270</displayx><displayy>30</displayy><displaywidth>150</displaywidth><displayheight>90</displayheight><font family="Segoe UI" size="10" style="Regular" color="7FB2E5" /></stage><stage stageid="cafa787f-b5b7-41eb-a8c5-e98b80991d73" name="Replace" type="SubSheetInfo"><subsheetid>82dff583-ca93-43d7-a7fb-8bcc87efc269</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>-105</displayy><displaywidth>150</displaywidth><displayheight>90</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /></stage><stage stageid="b022a1aa-ad28-44c9-a99f-d069f6ff4713" name="Start" type="Start"><subsheetid>82dff583-ca93-43d7-a7fb-8bcc87efc269</subsheetid><loginhibit /><narrative></narrative><displayx>-15</displayx><displayy>-135</displayy><displaywidth>60</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><inputs><input type="text" name="Search for" stage="Search" /><input type="text" name="Replace with" stage="Replace" /></inputs><onsuccess>729ba137-9cb9-4076-bf7f-d9a16b1c263c</onsuccess></stage><stage stageid="b4bd87e6-defb-45a7-a3a7-2fb1ffd099c6" name="End" type="End"><subsheetid>82dff583-ca93-43d7-a7fb-8bcc87efc269</subsheetid><loginhibit /><narrative></narrative><displayx>-15</displayx><displayy>15</displayy><displaywidth>60</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><outputs><output type="flag" name="Success" stage="Success" /></outputs></stage><stage stageid="729ba137-9cb9-4076-bf7f-d9a16b1c263c" name="Replace" type="Code"><subsheetid>82dff583-ca93-43d7-a7fb-8bcc87efc269</subsheetid><loginhibit /><narrative></narrative><displayx>-15</displayx><displayy>-60</displayy><displaywidth>90</displaywidth><displayheight>30</displayheight><font family="Tahoma" size="10" style="Regular" color="000000" /><inputs><input type="text" name="searchStr" expr="[Search]" /><input type="text" name="replaceStr" expr="[Replace]" /></inputs><outputs><output type="flag" name="success" stage="Success" /></outputs><onsuccess>b4bd87e6-defb-45a7-a3a7-2fb1ffd099c6</onsuccess><code><![CDATA[success = true;
+
+
+try 
+
+{
+	Application oXL;
+	Workbook oWB;
+	Worksheet oSheet;
+	oXL = (Application)Marshal.GetActiveObject("Excel.Application");
+	oWB = (Workbook)oXL.ActiveWorkbook; 
+	oSheet = (Worksheet)oWB.ActiveSheet;
+	
+	if(oSheet.UsedRange.Find(searchStr) != null)
+	{
+		oSheet.UsedRange.Replace(searchStr, replaceStr);
+	}
+}
+
+catch(Exception e)
+{
+success = false;
+}]]></code></stage><stage stageid="cc64d7e1-4464-4ac4-97a8-134ab6fac773" name="Success" type="Data"><subsheetid>82dff583-ca93-43d7-a7fb-8bcc87efc269</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>90</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>flag</datatype><initialvalue /><private /><alwaysinit /></stage><stage stageid="89ce554f-1a25-4f1d-9cb7-c917c1ffb877" name="Input" type="Block"><subsheetid>82dff583-ca93-43d7-a7fb-8bcc87efc269</subsheetid><loginhibit /><narrative></narrative><displayx>-270</displayx><displayy>-45</displayy><displaywidth>150</displaywidth><displayheight>90</displayheight><font family="Segoe UI" size="10" style="Regular" color="7FB2E5" /></stage><stage stageid="e6416f5f-f360-4b1f-a795-3b38a60aaf09" name="Output" type="Block"><subsheetid>82dff583-ca93-43d7-a7fb-8bcc87efc269</subsheetid><loginhibit /><narrative></narrative><displayx>-270</displayx><displayy>60</displayy><displaywidth>150</displaywidth><displayheight>60</displayheight><font family="Segoe UI" size="10" style="Regular" color="7FB2E5" /></stage><stage stageid="20236c77-6142-4e68-84cb-365da1a3fcdd" name="Replace" type="Data"><subsheetid>82dff583-ca93-43d7-a7fb-8bcc87efc269</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>15</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>text</datatype><initialvalue /><private /><alwaysinit /></stage><stage stageid="f8bb32f1-51cc-4b8f-a6c9-cbe801bd23d0" name="Search" type="Data"><subsheetid>82dff583-ca93-43d7-a7fb-8bcc87efc269</subsheetid><narrative></narrative><displayx>-195</displayx><displayy>-15</displayy><displaywidth>120</displaywidth><displayheight>30</displayheight><font family="Segoe UI" size="10" style="Regular" color="000000" /><datatype>text</datatype><initialvalue /><private /><alwaysinit /></stage></process></object>
+        <object-group id="b6d0291e-f007-47f8-8856-d6d7d6ec673f" name="COMMON/MS Office" isDefaultGroup="False" xmlns="http://www.blueprism.co.uk/product/object-group">
+            <members>
+                <object id="f096ff69-59f8-4e4e-a465-634846290c40" />
+            </members>
+        </object-group>
+    </bpr:contents>
+</bpr:release>
